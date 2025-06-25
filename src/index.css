@@ -2,20 +2,19 @@
 
 @layer components {
   .btn-primary {
-     border-radius: calc(infinity  * 1px);
-     background-color: var(--color-sky-400);
-     padding: --spacing(2) --spacing(5);
-     font-weight: var(--font-weight-semibold);
-     color: var(--color-white);
-     box-shadow: var(--drop-shadow-md);
-     transition: .2s ease-out;
-     max-width: var(--container-sm);
-     cursor: pointer;
-     &:hover {
+    border-radius: calc(infinity * 1px);
+    background-color: var(--color-sky-400);
+    padding: --spacing(2) --spacing(5);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-white);
+    box-shadow: var(--drop-shadow-md);
+    transition: 0.2s ease-out;
+    max-width: var(--container-sm);
+    cursor: pointer;
+    &:hover {
       @media (hover: hover) {
         background-color: var(--color-sky-700);
       }
-     }
-     
+    }
   }
 }

@@ -1,11 +1,9 @@
 const Button = () => {
   return (
-    <button
-      className='text-white font-medium bg-sky-500 dark:bg-sky-700 dark:hover:bg-sky-500 hover:bg-sky-700 max-w-sm rounded-4xl px-4 py-1'
-    >
+    <button className="max-w-sm rounded-4xl bg-sky-500 px-4 py-1 font-medium text-white hover:bg-sky-700 dark:bg-sky-700 dark:hover:bg-sky-500">
       Save changes
     </button>
-  )
-}
+  );
+};
 
 export default Button;
